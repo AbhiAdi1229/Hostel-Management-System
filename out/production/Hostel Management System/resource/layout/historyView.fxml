@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="740.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="resource.controller.HistoryView">
+   <children>
+      <AnchorPane prefHeight="740.0" prefWidth="1000.0">
+         <children>
+            <TableView fx:id="table_history" layoutX="53.0" layoutY="90.0" prefHeight="586.0" prefWidth="895.0">
+              <columns>
+                  <TableColumn fx:id="col_date_time" minWidth="0.0" prefWidth="159.46663284301758" style="-fx-alignment: CENTER;" text="Date Time" />
+                <TableColumn fx:id="col_staff_username" prefWidth="251.7333221435547" style="-fx-alignment: CENTER;" text="Staff Username" />
+                  <TableColumn fx:id="col_student_usn" minWidth="0.0" prefWidth="217.06671142578125" style="-fx-alignment: CENTER;" text="Student USN" />
+                  <TableColumn fx:id="col_sharing" minWidth="0.0" prefWidth="145.06658935546875" style="-fx-alignment: CENTER;" text="Sharing" />
+                  <TableColumn fx:id="col_bed_number" minWidth="0.0" prefWidth="121.86669921875" style="-fx-alignment: CENTER;" text="Bed Number" />
+              </columns>
+            </TableView>
+         </children>
+      </AnchorPane>
+   </children>
+</StackPane>
